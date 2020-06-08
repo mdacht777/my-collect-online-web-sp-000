@@ -6,7 +6,7 @@ def my_collect(array)
     arr.push yield array[i]
     i+=1
   end
-  array
+  arr
   else
     puts "Hey! No block was given!"
   end
